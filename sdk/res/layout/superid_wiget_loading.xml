@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/logindialog_view_switcher"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:visibility="gone" >
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:background="@color/s_color_faceloginloadbg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp" >
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/superid_drawable_progress"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/loadingtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/s_size_font_title" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:background="@color/s_color_faceloginloadbg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp" >
+
+        <ImageView
+            android:id="@+id/dialog_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/superid_common_alert_success_img"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/loadingresult"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/s_size_font_title" />
+    </LinearLayout>
+
+</ViewSwitcher>
