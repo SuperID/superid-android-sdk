@@ -99,5 +99,8 @@
     <string name="superid_tips_facerebundlefreeze">帐号冻结中，请解除冻结后重试</string>
     <string name="superid_tips_bundlemissingface">无法识别当前人脸</string>
     <string name="superid_tips_cameraerrortips">请您在应用权限列表里打开摄像头权限或重启手机</string>
+    <string name="superid_tips_verifysuccess">验证成功</string>
+    <string name="superid_tips_verifyfail">验证失败</string>
+    <string name="superid_title_verify">验证</string>
 
 </resources>

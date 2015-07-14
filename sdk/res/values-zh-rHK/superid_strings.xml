@@ -99,5 +99,8 @@
     <string name="superid_tips_facerebundlefreeze">帳號凍結中，請解除凍結後重試</string>
     <string name="superid_tips_bundlemissingface">無法識別當前人臉</string>
     <string name="superid_tips_cameraerrortips">請您在應用權限列表裏打開攝像頭權限或重啟手機</string>
+    <string name="superid_tips_verifysuccess">驗證成功</string>
+    <string name="superid_tips_verifyfail">驗證失敗</string>
+    <string name="superid_title_verify">驗證</string>
 
 </resources>

@@ -99,5 +99,7 @@
     <string name="superid_tips_facerebundlefreeze">Current account has been blocked. You cannot operate.</string>
     <string name="superid_tips_bundlemissingface">System cannot detect your face. </string>
     <string name="superid_tips_cameraerrortips">Please provide camera  permission for this App or restart your device. </string>
-
+    <string name="superid_tips_verifysuccess">Succeed</string>
+    <string name="superid_tips_verifyfail">Failed</string>
+	<string name="superid_title_verify">Verify</string>
 </resources>
