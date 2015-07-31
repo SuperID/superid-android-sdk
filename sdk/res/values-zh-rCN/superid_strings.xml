@@ -102,5 +102,6 @@
     <string name="superid_tips_verifysuccess">验证成功</string>
     <string name="superid_tips_verifyfail">验证失败</string>
     <string name="superid_title_verify">验证</string>
+    <string name="superid_tips_init">初始化中</string>
 
 </resources>
