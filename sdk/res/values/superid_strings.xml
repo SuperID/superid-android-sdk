@@ -51,13 +51,13 @@
     <string name="superid_tips_nickname">name</string>
     <string name="superid_action_save">Submit</string>
     <string name="superid_action_agreeitem">I agree the privacy policy</string>
-    <string name="superid_tips_guideerror">Fail to login. Make sure the above number is your SuperID. if dark condition, double tap to open the highlight mode when scanning face.</string>
+    <string name="superid_tips_guideerror">Login failed, Retry again. if dark condition, double tap to open the highlight mode .</string>
     <string name="superid_action_changephone">Change account</string>
     <string name="superid_action_rescan">Retry</string>
-    <string name="superid_tips_guideerthree">You have failed to login over 3 times, for proper acquisition, you should always enroll in the best lighting conditions</string>
+    <string name="superid_tips_guideerthree">Repeated login failures,please rebinding your face</string>
     <string name="superid_action_rebundleface">Record again</string>
     <string name="superid_action_exit">Cancel</string>
-    <string name="superid_title_welcome">Welcome to use SuperID</string>
+    <string name="superid_title_welcome"></string>
     <string name="superid_tips_guidestart">Please look at the front camera on the mobile device, click the Start button</string>
     <string name="superid_action_startscan">Start</string>
     <string name="superid_tips_inputphone">Enter your mobile number</string>
@@ -66,8 +66,10 @@
     <string name="superid_tips_nologin">Please login with SuperID</string>
     <string name="superid_tips_noauth">Please link your SuperID first</string>
     <string name="superid_tips_apptokenfail">App token fail</string>
-    <string name="superid_tips_guidelight">Bright condition？\nRecord your face again</string>
-    <string name="superid_tips_guidedark">Dark condition？\nAdjust your surrounding or logout</string>
+    <string name="superid_tips_guidelight">Let light be sufficient to making your face clearly.</string>
+    <string name="superid_tips_guidedark"> Keep steady and align your face to the yellow frame.
+
+</string>
     <string name="superid_title_country">Regions</string>
     <string name="superid_china">China</string>
     <string name="superid_tips_noface">Please look at the screen</string>
