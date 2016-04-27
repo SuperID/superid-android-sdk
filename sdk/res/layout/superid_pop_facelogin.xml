@@ -34,7 +34,7 @@
             android:layout_height="40dp"
             android:layout_alignParentRight="true"
             android:gravity="center_vertical"
-            android:textColor="@color/s_color_font_ligthbule"
+            android:textColor="@color/s_color_custombg"
             android:textSize="@dimen/s_size_font_title" />
     </RelativeLayout>
 
@@ -51,7 +51,7 @@
             android:id="@+id/lcountrycode"
             android:background="@drawable/superid_input_bg_focus"
             android:layout_centerVertical="true"
-            android:textColor="@color/s_color_font_darkbule"
+            android:textColor="@color/s_color_custombg"
             android:textSize="@dimen/s_size_font_text"
             android:ems="10"
             android:gravity="center_horizontal"
@@ -70,7 +70,7 @@
             android:inputType="number"
             android:layout_toRightOf="@id/lcountrycode"
             android:maxLength="11"
-            android:textColor="@color/s_color_font_darkbule"
+            android:textColor="@color/s_color_custombg"
             android:textSize="@dimen/s_size_font_text" >
         </EditText>
     </RelativeLayout>

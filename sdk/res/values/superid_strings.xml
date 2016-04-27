@@ -105,4 +105,10 @@
     <string name="superid_tips_verifyfail">Failed</string>
 	<string name="superid_title_verify">Verify</string>
 	<string name="superid_tips_init">Initialization</string>
+    <string name="superid_title_fakeid">Loging with face</string>
+    <string name="superid_tips_fakeid">Loging with face</string>
+    <string name="superid_tips_bright">Bright</string>
+    <string name="superid_tips_focusing">Focusing</string>
+    <string name="superid_tips_steady">Steady</string>
+
 </resources>

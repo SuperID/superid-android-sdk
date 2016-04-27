@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/rl_guideerror"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:visibility="gone"
-    android:layout_marginTop="8dp" >
+<RelativeLayout android:id="@+id/rl_guideerror"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:visibility="gone">
 
     <RelativeLayout
         android:id="@+id/rl_grtop"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/s_color_font_darkbule" >
+        android:background="@color/s_color_custombg">
 
         <TextView
             android:id="@+id/gr_tv1"
@@ -22,8 +22,8 @@
             android:layout_marginRight="24dp"
             android:layout_marginTop="86dp"
             android:text=""
-            android:textColor="@color/s_color_background_cell"
-            android:textSize="@dimen/s_size_font_title" />
+            android:textColor="@color/s_color_customfont"
+            android:textSize="@dimen/s_size_font_title"/>
 
         <TextView
             android:id="@+id/gr_tv2"
@@ -35,8 +35,8 @@
             android:layout_marginRight="24dp"
             android:layout_marginTop="16dp"
             android:text="@string/superid_tips_guideerror"
-            android:textColor="@color/s_color_background_cell"
-            android:textSize="@dimen/s_size_font_text" />
+            android:textColor="@color/s_color_customfont"
+            android:textSize="@dimen/s_size_font_text"/>
 
         <ImageView
             android:id="@+id/guide_pic"
@@ -45,14 +45,14 @@
             android:layout_below="@id/gr_tv2"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="22dp"
-            android:src="@drawable/superid_guideview_facebinding_img" />
+            android:src="@drawable/superid_guideview_facebinding_img"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_below="@+id/guide_pic"
             android:layout_marginTop="20dp"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btn_grchange"
@@ -63,13 +63,13 @@
                 android:gravity="center"
                 android:onClick="btnGrChange"
                 android:text="@string/superid_action_changephone"
-                android:textColor="@color/s_color_font_darkbule"
-                android:textSize="@dimen/s_size_font_bar" />
+                android:textColor="@color/s_color_custombg"
+                android:textSize="@dimen/s_size_font_bar"/>
 
             <View
                 android:layout_width="0.5dp"
                 android:layout_height="wrap_content"
-                android:background="@color/s_color_border" />
+                android:background="@color/s_color_border"/>
 
             <Button
                 android:id="@+id/btn_grrescan"
@@ -80,8 +80,8 @@
                 android:gravity="center"
                 android:onClick="btnGrRescan"
                 android:text="@string/superid_action_rescan"
-                android:textColor="@color/s_color_font_darkbule"
-                android:textSize="@dimen/s_size_font_bar" />
+                android:textColor="@color/s_color_custombg"
+                android:textSize="@dimen/s_size_font_bar"/>
         </LinearLayout>
     </RelativeLayout>
 
@@ -89,6 +89,6 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_below="@id/rl_grtop"
-        android:background="@android:color/transparent" />
+        android:background="@android:color/transparent"/>
 
 </RelativeLayout>

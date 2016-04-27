@@ -25,4 +25,8 @@
     <color name="s_color_barbtn_press">#0F759C</color>
     <color name="s_color_nofacetips">#FEC00F</color>
 
+    <color name="s_color_fakeidbackground">#06273C</color>
+
+    <color name="s_color_custombg">#0999D0</color>
+    <color name="s_color_customfont">#FFFFFF</color>
 </resources>

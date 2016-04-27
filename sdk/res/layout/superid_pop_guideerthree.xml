@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/rl_guideerthree"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:visibility="gone"
-    android:layout_marginTop="8dp" >
+                android:id="@+id/rl_guideerthree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginTop="8dp" >
 
     <RelativeLayout
         android:id="@+id/rl_gr3top"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/s_color_font_darkbule" >
+        android:background="@color/s_color_custombg" >
 
         <TextView
             android:id="@+id/gr3_tv1"
@@ -22,7 +22,7 @@
             android:layout_marginRight="24dp"
             android:layout_marginTop="86dp"
             android:text=""
-            android:textColor="@color/s_color_background_cell"
+            android:textColor="@color/s_color_customfont"
             android:textSize="@dimen/s_size_font_title" />
 
         <TextView
@@ -35,7 +35,7 @@
             android:layout_marginRight="24dp"
             android:layout_marginTop="16dp"
             android:text="@string/superid_tips_guideerthree"
-            android:textColor="@color/s_color_background_cell"
+            android:textColor="@color/s_color_customfont"
             android:textSize="@dimen/s_size_font_text" />
 
         <RelativeLayout
@@ -62,7 +62,7 @@
                 android:layout_toRightOf="@+id/guide_iconlight"
                 android:gravity="center_vertical"
                 android:text="@string/superid_tips_guidelight"
-                android:textColor="@color/s_color_background_cell"
+                android:textColor="@color/s_color_customfont"
                 android:textSize="@dimen/s_size_font_text" />
 
 
@@ -84,7 +84,7 @@
                 android:layout_toRightOf="@+id/guide_icondark"
                 android:gravity="center_vertical"
                 android:text="@string/superid_tips_guidedark"
-                android:textColor="@color/s_color_background_cell"
+                android:textColor="@color/s_color_customfont"
                 android:textSize="@dimen/s_size_font_text" />
             <View
                 android:id="@+id/guide_line"
@@ -113,7 +113,7 @@
                 android:gravity="center"
                 android:onClick="btnGr3Rebundle"
                 android:text="@string/superid_action_rebundleface"
-                android:textColor="@color/s_color_font_darkbule"
+                android:textColor="@color/s_color_custombg"
                 android:textSize="@dimen/s_size_font_bar" />
 
             <View
@@ -130,7 +130,7 @@
                 android:gravity="center"
                 android:onClick="btnGr3Out"
                 android:text="@string/superid_action_exit"
-                android:textColor="@color/s_color_font_darkbule"
+                android:textColor="@color/s_color_custombg"
                 android:textSize="@dimen/s_size_font_bar" />
         </LinearLayout>
     </RelativeLayout>

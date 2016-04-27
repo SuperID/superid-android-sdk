@@ -103,5 +103,10 @@
     <string name="superid_tips_verifyfail">驗證失敗</string>
     <string name="superid_title_verify">驗證</string>
     <string name="superid_tips_init">初始化中</string>
+    <string name="superid_title_fakeid">刷臉</string>
+    <string name="superid_tips_fakeid">歡迎使用刷臉功能</string>
+    <string name="superid_tips_bright">明亮</string>
+    <string name="superid_tips_focusing">對準</string>
+    <string name="superid_tips_steady">穩定</string>
 
 </resources>

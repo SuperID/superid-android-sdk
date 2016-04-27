@@ -77,6 +77,8 @@
 
         <include layout="@layout/superid_pop_guidelock" />
 
+        <include layout="@layout/superid_pop_guidefakeid" />
+
         <com.isnc.facesdk.view.PopLoginView
             android:id="@+id/pop_loginview"
             android:layout_width="wrap_content"
