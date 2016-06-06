@@ -102,7 +102,7 @@
                     android:layout_toRightOf="@id/edit_icon"
                     android:background="@null"
                     android:gravity="center_vertical"
-                    android:onClick="btnSave"
+                    android:onClick="btnEdit"
                     android:text="@string/superid_aciton_authrevise"
                     android:textColor="@color/s_color_font_darkbule"
                     android:textSize="@dimen/s_size_font_text" />

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rl_guideerthree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:visibility="gone">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/s_color_custombg"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_gr3top"
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:layout_below="@id/top_view"
+        android:background="@color/s_color_custombg">
+
+
+        <LinearLayout
+            android:id="@+id/guide_icontips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="57dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/guide_iconlight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/superid_guideview_rebind_light_ico"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="14dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/superid_tips_bright"
+                    android:textColor="@color/s_color_customfont"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="46dp"
+                android:layout_marginTop="57dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/guide_icondark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/superid_guideview_rebind_dark_ico"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="14dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/superid_tips_focusing"
+                    android:textColor="@color/s_color_customfont"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="46dp"
+                android:layout_marginTop="57dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/superid_guideview_rebind_shake_ico"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="14dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/superid_tips_steady"
+                    android:textColor="@color/s_color_customfont"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="29dp"
+            android:layout_toRightOf="@id/guide_icontips">
+
+            <TextView
+                android:id="@+id/gr3_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text=""
+                android:textColor="@color/s_color_customfont"
+                android:textSize="@dimen/s_size_font_title"/>
+
+            <TextView
+                android:id="@+id/gr3_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gr3_tv1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="6dp"
+                android:text="@string/superid_tips_guideerthree"
+                android:textColor="@color/s_color_customfont"
+                android:textSize="@dimen/s_size_font_text"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rl_gr3top"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_gr3rebundle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/superid_text_selector"
+            android:gravity="center"
+            android:onClick="btnGr3Rebundle"
+            android:text="@string/superid_action_rebundleface"
+            android:textColor="@color/s_color_custombg"
+            android:textSize="@dimen/s_size_font_bar"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/s_color_border"/>
+
+        <Button
+            android:id="@+id/btn_gr3out"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/superid_text_selector"
+            android:gravity="center"
+            android:onClick="btnGr3Out"
+            android:text="@string/superid_action_exit"
+            android:textColor="@color/s_color_custombg"
+            android:textSize="@dimen/s_size_font_bar"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/btn_layout"
+        android:background="@android:color/transparent"/>
+
+</RelativeLayout>

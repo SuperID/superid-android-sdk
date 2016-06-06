@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rl_guidestart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:paddingTop="8dp">
+
+    <View
+        android:id="@+id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/s_color_custombg"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_below="@id/top_view"
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:background="@color/s_color_custombg">
+
+        <ImageView
+            android:id="@+id/guide_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/superid_guideview_scanface_img"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/guide_pic">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/superid_title_welcome"
+                android:textColor="@color/s_color_customfont"
+                android:textSize="@dimen/s_size_font_title"/>
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="3dp"
+                android:text="@string/superid_tips_guidestart"
+                android:textColor="@color/s_color_customfont"
+                android:textSize="@dimen/s_size_font_text"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_gstart"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rl_top"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/superid_text_selector"
+        android:gravity="center"
+        android:onClick="btnGuideStart"
+        android:text="@string/superid_action_startscan"
+        android:textColor="@color/s_color_custombg"
+        android:textSize="@dimen/s_size_font_bar"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/btn_gstart"
+        android:background="@android:color/transparent"/>
+
+</RelativeLayout>

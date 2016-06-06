@@ -108,5 +108,6 @@
     <string name="superid_tips_bright">明亮</string>
     <string name="superid_tips_focusing">對準</string>
     <string name="superid_tips_steady">穩定</string>
+    <string name="superid_action_set">設置</string>
 
 </resources>

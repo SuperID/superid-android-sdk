@@ -3,7 +3,7 @@
 
     <color name="s_color_background_main">#F1F2F3</color>
     <color name="s_color_background_cell">#FFFFFF</color>
-    <color name="s_color_background_bar">#0999D0</color>
+    <color name="s_color_background_bar">#22AEFF</color>
     <color name="s_color_background_view">#F2F2F2</color>
     <color name="s_color_background_green">#00C300</color>
     <color name="s_color_background_view_input">#202020</color>
@@ -18,15 +18,17 @@
     <color name="s_color_font_hightlight">#FFFFFF</color>
     <color name="s_color_font_green">#00C300</color>
     <color name="s_color_font_hightlight_disable">#4d5E5E5E</color>
+    <color name="s_color_font_white_disable">#7DFFFFFF</color>
     <color name="s_color_faceloginloadbg">#80000000</color>
     <color name="s_color_camera_shade">#b3000000</color>
     <color name="s_color_font_ligthbule">#33B5E5</color>
-    <color name="s_color_font_darkbule">#0999D0</color>
+    <color name="s_color_font_darkbule">#22AEFF</color>
     <color name="s_color_barbtn_press">#0F759C</color>
     <color name="s_color_nofacetips">#FEC00F</color>
 
     <color name="s_color_fakeidbackground">#06273C</color>
 
-    <color name="s_color_custombg">#0999D0</color>
+    <color name="s_color_custombg">#22AEFF</color>
     <color name="s_color_customfont">#FFFFFF</color>
+    <color name="s_color_three_error_cell">#4DFFFFFF</color>
 </resources>

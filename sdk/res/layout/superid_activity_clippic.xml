@@ -1,28 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="#000000"
-    android:orientation="vertical" >
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#000000"
+              android:orientation="vertical">
 
     <include layout="@layout/superid_common_bar"/>
 
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" >
+        android:layout_height="fill_parent">
 
-        <ImageView
+        <com.isnc.facesdk.view.ClipImageView
             android:id="@+id/src_pic"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:scaleType="matrix" />
+            android:layout_height="fill_parent"/>
 
         <com.isnc.facesdk.view.ClipView
             android:id="@+id/clipview"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_centerInParent="true" />
+            android:layout_height="fill_parent"/>
     </RelativeLayout>
 
 </LinearLayout>

@@ -71,6 +71,7 @@
                     android:layout_toRightOf="@+id/icon_email"
                     android:ems="10"
                     android:hint="@string/superid_tips_secureemailtexttips"
+                    android:inputType="textEmailAddress"
                     android:paddingRight="50dp"
                     android:singleLine="true"
                     android:textColor="@color/s_color_font_darkbule"
@@ -83,10 +84,10 @@
                     android:id="@+id/edit_emailclear"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:layout_alignBaseline="@+id/ed_secureemail"
-                    android:layout_alignBottom="@+id/ed_secureemail"
+                    android:layout_alignBottom="@+id/icon_email"
                     android:layout_alignRight="@+id/ed_secureemail"
                     android:layout_marginRight="18dp"
+                    android:layout_marginTop="3dp"
                     android:background="@drawable/superid_button_edittextclearselector"
                     android:onClick="btnEmailEdClear" />
             </RelativeLayout>

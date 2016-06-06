@@ -43,6 +43,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/gr3_tv2"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
             android:layout_centerHorizontal="true" >
 
             <ImageView
@@ -94,7 +96,7 @@
                 android:layout_alignRight="@id/guide_tvdark"
                 android:layout_below="@id/guide_iconlight"
                 android:layout_marginTop="12dp"
-                android:background="@color/s_color_background_cell" />
+                android:background="@color/s_color_three_error_cell" />
         </RelativeLayout>
 
         <LinearLayout

@@ -1,36 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/s_color_background_view"
-    android:orientation="vertical" >
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/s_color_background_view"
+              android:orientation="vertical">
 
-    <include layout="@layout/superid_common_bar" />
+    <include layout="@layout/superid_common_bar"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="160dp" >
+        android:layout_height="160dp">
 
         <View
             android:id="@+id/view1"
             android:layout_width="wrap_content"
             android:layout_height="80dp"
-            android:background="@color/s_color_custombg" />
-       
+            android:background="@color/s_color_custombg"/>
+
 
         <com.isnc.facesdk.view.CircleImageView
-            android:id="@+id/avatar"
+            android:id="@+id/edit_avatar"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:src="@drawable/superid_avatar_img_default" />
-         <ImageView
+            android:src="@drawable/superid_avatar_img_default"/>
+
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/avatar"
-            android:layout_alignRight="@+id/avatar"
-            android:src="@drawable/superid_common_edit_avatar_ico" />
+            android:layout_alignBottom="@+id/edit_avatar"
+            android:layout_alignRight="@+id/edit_avatar"
+            android:src="@drawable/superid_common_edit_avatar_ico"/>
 
     </RelativeLayout>
 
@@ -38,14 +39,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="24dp"
-        android:layout_marginRight="24dp" >
+        android:layout_marginRight="24dp">
 
         <ImageView
             android:id="@+id/icon_phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:src="@drawable/superid_common_edit_mobilephone_ico_disable" />
+            android:src="@drawable/superid_common_edit_mobilephone_ico_disable"/>
 
         <TextView
             android:id="@+id/tv_phone"
@@ -54,9 +55,9 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="38dp"
             android:layout_toRightOf="@+id/icon_phone"
+            android:text="13824556644"
             android:textColor="@color/s_color_font_contant"
-            android:textSize="@dimen/s_size_font_title" 
-            android:text="13824556644"/>
+            android:textSize="@dimen/s_size_font_title"/>
     </RelativeLayout>
 
     <RelativeLayout
@@ -64,14 +65,14 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
-        android:layout_marginTop="24dp" >
+        android:layout_marginTop="24dp">
 
         <ImageView
             android:id="@+id/icon_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:src="@drawable/superid_common_edit_nickname_ico_disable" />
+            android:src="@drawable/superid_common_edit_nickname_ico_disable"/>
 
         <EditText
             android:id="@+id/ed_name"
@@ -85,21 +86,21 @@
             android:hint="@string/superid_tips_nickname"
             android:singleLine="true"
             android:textColor="@color/s_color_font_darkbule"
-            android:textSize="@dimen/s_size_font_title" >
+            android:textSize="@dimen/s_size_font_title">
 
-            <requestFocus />
+            <requestFocus/>
         </EditText>
 
         <Button
             android:id="@+id/edit_nameclear"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:layout_alignBaseline="@+id/ed_name"
-            android:layout_alignBottom="@+id/ed_name"
+            android:layout_alignTop="@+id/icon_name"
             android:layout_alignRight="@+id/ed_name"
+            android:layout_marginTop="3dp"
             android:layout_marginRight="18dp"
             android:background="@drawable/superid_button_edittextclearselector"
-            android:onClick="btnNameEdClear" />
+            android:onClick="btnNameEdClear"/>
     </RelativeLayout>
 
     <Button
@@ -114,6 +115,6 @@
         android:onClick="btnSave"
         android:text="@string/superid_action_save"
         android:textColor="@color/s_color_font_hightlight"
-        android:textSize="@dimen/s_size_font_title" />
+        android:textSize="@dimen/s_size_font_title"/>
 
 </LinearLayout>

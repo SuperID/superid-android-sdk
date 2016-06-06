@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/superid_common_confirm_btn_normal_disable" android:state_pressed="true"/>
     <item android:drawable="@drawable/superid_common_confirm_btn_normal_disable" android:state_selected="true"/>
-    <item android:drawable="@drawable/superid_common_confirm_btn_normal"/>
-
+    <item android:drawable="@drawable/superid_common_confirm_btn_normal" android:state_pressed="false"/>
+    <item android:drawable="@drawable/superid_common_confirm_btn_normal_unclickable" android:state_checkable="false"/>
 </selector>

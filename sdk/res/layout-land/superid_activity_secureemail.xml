@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/s_color_background_cell">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/superid_common_bar"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/ll_sercure"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_sercure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="63.5dp"
+                        android:src="@drawable/superid_common_secureemail_bg_img"/>
+
+                    <TextView
+                        android:id="@+id/tips_sercure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="25dp"
+                        android:gravity="center_horizontal"
+                        android:lineSpacingMultiplier="1.2"
+                        android:textColor="@color/s_color_font_tips"
+                        android:textSize="@dimen/s_size_font_text"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical"
+                    android:paddingRight="20dp"
+                    android:paddingTop="80dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="15dp">
+
+                        <ImageView
+                            android:id="@+id/icon_email"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/superid_common_edit_mail_ico_disable"/>
+
+                        <TextView
+                            android:id="@+id/tv_secureemail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="14.5dp"
+                            android:layout_toRightOf="@+id/icon_email"
+                            android:textColor="@color/s_color_font_contant"
+                            android:textSize="@dimen/s_size_font_title"/>
+
+                        <EditText
+                            android:id="@+id/ed_secureemail"
+                            style="@style/my_edittext_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="14.5dp"
+                            android:layout_toRightOf="@+id/icon_email"
+                            android:ems="10"
+                            android:hint="@string/superid_tips_secureemailtexttips"
+                            android:inputType="textEmailAddress"
+                            android:paddingRight="50dp"
+                            android:singleLine="true"
+                            android:textColor="@color/s_color_font_darkbule"
+                            android:textSize="@dimen/s_size_font_title">
+
+                            <requestFocus/>
+                        </EditText>
+
+                        <Button
+                            android:id="@+id/edit_emailclear"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_alignBottom="@+id/icon_email"
+                            android:layout_alignRight="@+id/ed_secureemail"
+                            android:layout_marginRight="18dp"
+                            android:layout_marginTop="3dp"
+                            android:background="@drawable/superid_button_edittextclearselector"
+                            android:onClick="btnEmailEdClear"/>
+                    </RelativeLayout>
+
+                    <Button
+                        android:id="@+id/btn_savemail"
+                        android:layout_width="match_parent"
+                        android:layout_height="42dp"
+                        android:layout_marginLeft="48dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/superid_button_faceselector"
+                        android:onClick="btnSaveMail"
+                        android:text="@string/superid_aciton_submit"
+                        android:textColor="@color/s_color_font_hightlight"
+                        android:textSize="@dimen/s_size_font_title"/>
+
+                    <Button
+                        android:id="@+id/tv_notreceivemail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="12dp"
+                        android:background="@null"
+                        android:onClick="btnNotReceivEmail"
+                        android:text="@string/superid_aciton_notreceivedemail"
+                        android:textColor="@color/s_color_font_darkbule"
+                        android:textSize="@dimen/s_size_font_tips"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <com.isnc.facesdk.view.LoadingView
+        android:id="@+id/wiget_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
