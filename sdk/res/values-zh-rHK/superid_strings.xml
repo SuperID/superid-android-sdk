@@ -109,6 +109,6 @@
     <string name="superid_tips_focusing">對準</string>
     <string name="superid_tips_steady">穩定</string>
     <string name="superid_action_set">設置</string>
-
+    <string name="superid_need_hack_detect">請本人刷臉</string>
 
 </resources>

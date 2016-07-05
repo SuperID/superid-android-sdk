@@ -73,8 +73,6 @@
 
         <include layout="@layout/superid_pop_guiderebundle" />
 
-        <include layout="@layout/superid_pop_guideerthree" />
-
         <include layout="@layout/superid_pop_guidelock" />
 
         <include layout="@layout/superid_pop_guidefakeid" />
