@@ -117,6 +117,7 @@
         android:layout_toLeftOf="@+id/btn_code"
         android:ems="10"
         android:gravity="center"
+        android:imeOptions="actionDone"
         android:hint="@string/superid_tips_inputcode"
         android:inputType="number"
         android:maxLength="4"

@@ -63,6 +63,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
+            android:imeOptions="actionDone"
             android:layout_toRightOf="@id/lcountrycode"
             android:ems="10"
             android:gravity="center"

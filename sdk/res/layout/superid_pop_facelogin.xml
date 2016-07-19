@@ -66,6 +66,7 @@
             android:ems="10"
             android:gravity="center"
             android:hint="@string/superid_tips_inputphone"
+            android:imeOptions="actionDone"
             android:inputType="number"
             android:layout_toRightOf="@id/lcountrycode"
             android:maxLength="11"
