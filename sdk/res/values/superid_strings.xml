@@ -111,5 +111,5 @@
     <string name="superid_tips_focusing">Focusing</string>
     <string name="superid_tips_steady">Steady</string>
     <string name="superid_action_set">Setting</string>
-    <string name="superid_need_hack_detect">Invalid source</string>
+    <string name="superid_need_hack_detect">Rescan</string>
 </resources>
