@@ -11,17 +11,17 @@
         android:layout_height="fill_parent"
         android:gravity="center" >
 
-        <com.isnc.facesdk.view.FaceRegistView
+        <com.isnc.facesdk.view.FaceDetectView
             android:id="@+id/mFaceRegistView"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_gravity="center" />
 
-        <SurfaceView
-            android:id="@+id/infoSurfaceView"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_gravity="center" />
+        <!--<SurfaceView-->
+            <!--android:id="@+id/infoSurfaceView"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_gravity="center" />-->
 
         <ImageView
             android:id="@+id/scanfacebg"

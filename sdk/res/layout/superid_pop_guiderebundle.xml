@@ -85,10 +85,5 @@
         </LinearLayout>
     </RelativeLayout>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_below="@id/rl_grtop"
-        android:background="@android:color/transparent"/>
 
 </RelativeLayout>
