@@ -16,11 +16,6 @@ SuperID SDK enables developers to integrate face-login function into their nativ
 **NOTE**: The SuperID Android SDK only supports Android 4.0 or higher. 
 
 
-##Features
-
-* Login - http://superid.me/developer/document/android_quickstart.html
-* Face Attributes - http://superid.me/developer/document/android_advanced.html
-
 ##Samples
 You can download Android sample for SuperID SDK here:
 
